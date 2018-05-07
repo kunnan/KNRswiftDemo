@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.testImageView.image = R.image.appleTouchIcon();
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +22,6 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var testImageView: UIImageView!
 }
 

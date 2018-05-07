@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A45EE6298767A842F288DC8 /* Pods_KNRswiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A7D2A1D6469345BE79FB79 /* Pods_KNRswiftDemo.framework */; };
 		E1C2F7CA20A05E66007CE961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7C920A05E66007CE961 /* AppDelegate.swift */; };
 		E1C2F7CC20A05E66007CE961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7CB20A05E66007CE961 /* ViewController.swift */; };
 		E1C2F7CF20A05E66007CE961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7CD20A05E66007CE961 /* Main.storyboard */; };
 		E1C2F7D120A05E66007CE961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7D020A05E66007CE961 /* Assets.xcassets */; };
 		E1C2F7D420A05E66007CE961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7D220A05E66007CE961 /* LaunchScreen.storyboard */; };
+		E1C2F7DD20A060F5007CE961 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DC20A060F5007CE961 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96A7D2A1D6469345BE79FB79 /* Pods_KNRswiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNRswiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F48BAAC87D62E609B38534A /* Pods-KNRswiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNRswiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNRswiftDemo/Pods-KNRswiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E1C2F7C620A05E66007CE961 /* KNRswiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNRswiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C2F7C920A05E66007CE961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C2F7CB20A05E66007CE961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		E1C2F7D020A05E66007CE961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C2F7D320A05E66007CE961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C2F7D520A05E67007CE961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C2F7DC20A060F5007CE961 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		E432E66DA76B356118841EAD /* Pods-KNRswiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNRswiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNRswiftDemo/Pods-KNRswiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A45EE6298767A842F288DC8 /* Pods_KNRswiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32DE1998E9D5A7B1D1764EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A7D2A1D6469345BE79FB79 /* Pods_KNRswiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38986343FDB66D133B8A5037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E432E66DA76B356118841EAD /* Pods-KNRswiftDemo.debug.xcconfig */,
+				9F48BAAC87D62E609B38534A /* Pods-KNRswiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E1C2F7BD20A05E66007CE961 = {
 			isa = PBXGroup;
 			children = (
 				E1C2F7C820A05E66007CE961 /* KNRswiftDemo */,
 				E1C2F7C720A05E66007CE961 /* Products */,
+				38986343FDB66D133B8A5037 /* Pods */,
+				32DE1998E9D5A7B1D1764EA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 		E1C2F7C820A05E66007CE961 /* KNRswiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E1C2F7DC20A060F5007CE961 /* R.generated.swift */,
 				E1C2F7C920A05E66007CE961 /* AppDelegate.swift */,
 				E1C2F7CB20A05E66007CE961 /* ViewController.swift */,
 				E1C2F7CD20A05E66007CE961 /* Main.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C2F7D820A05E67007CE961 /* Build configuration list for PBXNativeTarget "KNRswiftDemo" */;
 			buildPhases = (
+				BBEC74851D3578B377223023 /* [CP] Check Pods Manifest.lock */,
 				E1C2F7C220A05E66007CE961 /* Sources */,
 				E1C2F7C320A05E66007CE961 /* Frameworks */,
 				E1C2F7C420A05E66007CE961 /* Resources */,
+				9DAE4EAD98980EB4E6DE8A2F /* [CP] Embed Pods Frameworks */,
+				E1C2F7DB20A05F69007CE961 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,6 +161,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DAE4EAD98980EB4E6DE8A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KNRswiftDemo/Pods-KNRswiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNRswiftDemo/Pods-KNRswiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEC74851D3578B377223023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KNRswiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C2F7DB20A05F69007CE961 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate  \"$SRCROOT/KNRswiftDemo\"\n#/Users/devzkn/code/github/blog/KNRswiftDemo/Pods/R.swift/rswift";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1C2F7C220A05E66007CE961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +220,7 @@
 			files = (
 				E1C2F7CC20A05E66007CE961 /* ViewController.swift in Sources */,
 				E1C2F7CA20A05E66007CE961 /* AppDelegate.swift in Sources */,
+				E1C2F7DD20A060F5007CE961 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +355,7 @@
 		};
 		E1C2F7D920A05E67007CE961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E432E66DA76B356118841EAD /* Pods-KNRswiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +371,7 @@
 		};
 		E1C2F7DA20A05E67007CE961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F48BAAC87D62E609B38534A /* Pods-KNRswiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
